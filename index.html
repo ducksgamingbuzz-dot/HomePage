@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>TBlocker Home</title>
+<title>TBlocker Browser Home</title>
+<style>
+  body {
+    margin:0;
+    background:#0f0c1f;
+    color:#c8bfff;
+    font-family:"Segoe UI", sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:50px;
+  }
+  h1 { font-size:48px; margin-bottom:40px; }
+  .button {
+    background:#300080;
+    color:#d0afff;
+    font-size:20px;
+    padding:15px 40px;
+    margin:10px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    transition:0.2s;
+    text-decoration:none;
+    display:inline-block;
+  }
+  .button:hover {
+    background:#7f3fff;
+    color:white;
+  }
+</style>
 </head>
-<body style="background:#0f0c1f; color:#c8bfff; font-family:Segoe UI; text-align:center; padding-top:50px;">
-<h1>Welcome to TBlocker</h1>
-<p>This is your home page!</p>
-<a href="https://www.google.com" style="color:#d0afff;">Google</a> |
-<a href="https://www.youtube.com" style="color:#d0afff;">YouTube</a>
+<body>
+  <h1>Welcome to TBlocker Browser</h1>
+
+  <a class="button" href="https://www.google.com">Google</a>
+  <a class="button" href="https://www.youtube.com">YouTube</a>
+  <a class="button" href="https://www.reddit.com">Reddit</a>
+  <a class="button" href="https://github.com">GitHub</a>
+
+  <p style="margin-top:50px; font-size:18px;">Powered by WebView2</p>
 </body>
 </html>
